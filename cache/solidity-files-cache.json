@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/root/hh_fcc/Sanjeevn/upgradableSmartContractTest/contracts/NUM1.sol": {
+      "lastModificationDate": 1681330747080,
+      "contentHash": "4adaa4c97bb7742019eafb14cd8ace9b",
+      "sourceName": "contracts/NUM1.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "NUM1"
+      ]
+    },
+    "/root/hh_fcc/Sanjeevn/upgradableSmartContractTest/contracts/NUM2.sol": {
+      "lastModificationDate": 1681331840516,
+      "contentHash": "9481cd064ffbc5dec9c0caa006e3fc55",
+      "sourceName": "contracts/NUM2.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "NUM2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/NUM2.sol:NUM2": {
+        "src": "contracts/NUM2.sol:4",
+        "version": {
+          "withMetadata": "1a5462778a5f0e3a826aadff06de37530ab7021564438aeb18353d979e37a01f",
+          "withoutMetadata": "5ca1000ef52fd4f918cf8d7cd96a4ebdacb8405e7d22e49f885b554692471ae0",
+          "linkedWithoutMetadata": "5ca1000ef52fd4f918cf8d7cd96a4ebdacb8405e7d22e49f885b554692471ae0"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()",
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM2",
+              "src": "contracts/NUM2.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    },
+    {
+      "contracts/NUM1.sol:NUM1": {
+        "src": "contracts/NUM1.sol:4",
+        "version": {
+          "withMetadata": "a3890f8887555186c77dad56028eca224396036f5be1076fae17103adeacf3b4",
+          "withoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca",
+          "linkedWithoutMetadata": "beb62be386cd93e3215c01102c4e8a308abc166b774158d6dd23b6ca1c8debca"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "update(uint256)",
+          "get()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "num",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "NUM1",
+              "src": "contracts/NUM1.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.18"
+      }
+    }
+  ]
+}

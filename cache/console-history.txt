@@ -1,0 +1,12 @@
+await num2.get();
+await num2.increment();
+await num2.get();
+await num2.increment();
+num2.increment();
+const num2 = await NUM2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const NUM2 = await ethers.getContractFactory("NUM2");
+exit
+await num2.get();
+num2.get();
+const num2 = await num1.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const num1 = await ethers.getContractFactory("NUM1");
